@@ -3,28 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>MovieInfo</title>
-    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">MovieInfo</a>
-        </div>
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brands" href="index.html"><h3>Movie Info</h3></a>
     </nav>
 
-    <div class="container">
+
+    <div class="container"><br>
       <div id="movie" class="well"></div>
     </div>
 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
   <script>
     getMovie();
   </script>
